@@ -11,3 +11,12 @@ A simple math expression renderer for the microdown
 |`$=x={b &plusminus; &sqrt;{b^{2}-4ac}}/{2a}=$`|![example4](https://github.com/tomooda/MicroMath/assets/836308/a0797e20-a429-4779-9b31-7a36eddee4ee)|
 |`$=lim__{&delta;&arrow;+0} {f(x)-f(x+&delta;)}/{&delta;}=$`|![example5](https://github.com/tomooda/MicroMath/assets/836308/5e9cb869-9495-4972-adc4-c09f78d156b3)|
 |`$=&Sigma;__{i=0}^^{n}i = {n(n+1)}/{2}=$`|![example6](https://github.com/tomooda/MicroMath/assets/836308/738cce44-2def-48c2-89f4-1c9a5be6c762)|
+
+
+```smalltalk
+Metacello new
+	baseline: 'MicroMath';
+	repository: 'github://rvillemeur/MicroMath:main/src';
+	onConflictUseIncoming;
+	load
+```
